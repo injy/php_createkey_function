@@ -5,7 +5,7 @@
  * @param  string $type   n l L s 字符类型 默认nlL
  * @return string 随机码 
  */
-function create_key( $length = 20 , $type = 'nlL' ) {
+function createkey( $length = 20 , $type = 'nlL' ) {
     // 强制将 $length 转换为数字，如果转换失败则使用默认值 20
     $length = (is_numeric($length) && $length > 0) ? intval($length) : 20;
     //为了防止意外限制随机字符长度为1000

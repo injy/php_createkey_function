@@ -1,7 +1,7 @@
 一个生成随机字符串的php函数。
 两个参数：
  * @param  number `$length` 随机码的长度
- * @param  string `$type`   n l L s 字符类型 
+ * @param  string `$type`   n l L s 字符类型组合 
  * @return string 随机码 
  
 使用方法：
